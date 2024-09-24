@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(44, 37, 37);
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 2.3rem;
+    width: max-content;
+    margin: auto;
+}
+
+h2 {
+    color: lightgrey;
+    font-family: monospace;
+    font-size: 1.3rem;
+    width: max-content;
+    margin: auto;
+    margin-top: 0.9vh !important;
+}
+
+.impHr {
+    margin-top: 2.4vh;
+    margin-bottom: 2.4vh;
+    width: 90%;
+}
+
+#plNum {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    display: block;
+    margin-top: 2vh !important;
+    color-scheme: dark;
+    color: black;
+    font-family: monospace;
+    padding: 0.7vh;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 3vh;
+}
+#plNum::placeholder {
+    color: rgba(8, 5, 5, 0.63);
+    font-family: monospace;
+}
+
+#deckSel {
+    display: block;
+    margin: auto;
+    padding: 0.5vh;
+    border-radius: 5px;
+    width: 75%;
+    height: 4vh;
+    color: black;
+    font-family: monospace;
+}
+
+#jokSel {
+    display: block;
+    margin: auto;
+    padding: 0.5vh;
+    border-radius: 5px;
+    height: 4vh;
+    width: 75%;
+    color: black;
+    font-family: monospace;
+}
+
+#firstRes {
+    display: block;
+    margin: auto;
+    height: 4vh;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1vh;
+    width: 60%;
+    margin-top: 2.5vh;
+    font-family: monospace;
+    font-size: 2vh;
+}

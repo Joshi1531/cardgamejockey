@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Card Game Jockey</title>
+</head>
+<body>
+    <script type="text/javascript" src="index.js"></script>
+    <h1>Card Game Jockey</h1>
+    <h2>Calculations for card games</h2>
+    <hr class="impHr">
+    <h2>How many cards for players?</h2>
+    <input type="number" id="plNum" placeholder="Players" onkeyup="updateRes(0)" value="5">
+    <br>
+    <select name="deckSel" id="deckSel" onchange="updateRes(0)">
+        <option value="1">One deck (52 Cards)</option>
+        <option value="2">Two decks (104 Cards)</option>
+        <option value="3">Three decks (156 Cards)</option>
+        <option value="3">Four decks (208 Cards)</option>
+    </select>
+    <br>
+    <select name="jokSel" id="jokSel" onchange="updateRes(0)">
+        <option value="0">No Jokers</option>
+        <option value="1">One Joker in each deck</option>
+        <option value="2">Two Jokers in each deck</option>
+    </select>
+    <br>
+    <input type="text" readonly="true" id="firstRes" placeholder="Result">
+    <hr class="impHr">
+</body>
+</html>
