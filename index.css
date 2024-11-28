@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(44, 37, 37);
+    background-color: #0D1321;
 }
 
 h1 {
-    color: white;
+    color: #FBF5F3;
     font-family: monospace;
     font-size: 2.3rem;
     width: max-content;
@@ -28,6 +28,7 @@ h2 {
 #plNum {
     margin: auto;
     background-color: rgb(255, 255, 255);
+    background-color: #F0EBD8;
     width: 50%;
     display: block;
     margin-top: 2vh !important;
@@ -38,10 +39,15 @@ h2 {
     border-radius: 15px;
     text-align: center;
     font-size: 3vh;
+    box-shadow: none;
+    border: none;
 }
 #plNum::placeholder {
     color: rgba(8, 5, 5, 0.63);
     font-family: monospace;
+}
+#plNum:focus, input:focus {
+    outline: none !important;
 }
 
 #deckSel {
@@ -51,8 +57,29 @@ h2 {
     border-radius: 5px;
     width: 75%;
     height: 4vh;
-    color: black;
+    color: #1D2D44;
     font-family: monospace;
+    background-color: #F0EBD8;
+    border: none;
+    outline: none;
+}
+select:active {
+    background-color: black;
+}
+
+#sizeSel {
+    display: block;
+    margin: auto;
+    padding: 0.5vh;
+    border-radius: 5px;
+    width: 75%;
+    height: 4vh;
+    color: #1D2D44;
+    font-family: monospace;
+    background-color: #F0EBD8;
+    border: none;
+    outline: none;
+    margin-top: 2vh !important;
 }
 
 #jokSel {
@@ -62,15 +89,16 @@ h2 {
     border-radius: 5px;
     height: 4vh;
     width: 75%;
-    color: black;
+    color: #1D2D44;
     font-family: monospace;
+    background-color: #F0EBD8;
 }
 
 #firstRes {
     display: block;
     margin: auto;
     height: 4vh;
-    background-color: lightgray;
+    background-color: #F0EBD8;
     text-align: center;
     border-radius: 4px;
     padding: 1vh;

@@ -15,16 +15,20 @@
     <input type="number" id="plNum" placeholder="Players" onkeyup="updateRes(0)" value="5" onfocus="this.value = ''">
     <br>
     <select name="deckSel" id="deckSel" onchange="updateRes(0)">
-        <option value="1">One deck (52 Cards)</option>
-        <option value="2">Two decks (104 Cards)</option>
-        <option value="3">Three decks (156 Cards)</option>
-        <option value="3">Four decks (208 Cards)</option>
+        <option value="1">One deck</option>
+        <option value="2">Two decks</option>
+        <option value="3">Three decks</option>
+        <option value="3">Four decks</option>
     </select>
     <br>
     <select name="jokSel" id="jokSel" onchange="updateRes(0)">
         <option value="0">No Jokers</option>
         <option value="1">One Joker in each deck</option>
         <option value="2">Two Jokers in each deck</option>
+    </select>
+    <select name="sizeSel" id="sizeSel" onchange="updateRes(0)">
+        <option value="32">Small Deck (32 Cards)</option>
+        <option value="52">Full Deck (52 Cards)</option>
     </select>
     <br>
     <input type="text" readonly="true" id="firstRes" placeholder="Result">
